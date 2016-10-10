@@ -309,4 +309,7 @@
     <string name="text_charging_symbol_default">Disabled</string>
     <string name="text_charging_symbol_flash">Flash</string>
     <string name="text_charging_symbol_tilde">Tilde</string>
+    <!-- Navbar toggle -->
+    <string name="navigation_bar_visible_title">Enable Navbar</string>
+    <string name="navigation_bar_visible_summary">Enable or disable navbar (needs a reboot and can make your device unusable)</string>
 </resources>
