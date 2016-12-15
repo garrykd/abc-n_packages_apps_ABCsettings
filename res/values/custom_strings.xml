@@ -315,4 +315,9 @@
     <!-- Navbar toggle -->
     <string name="navigation_bar_visible_title">Enable Navbar</string>
     <string name="navigation_bar_visible_summary">Enable or disable navbar (can make your device unusable if you dont have an alternative navigation bar)</string>
+
+    <!-- Advanced night mode tile -->
+    <string name="qs_night_brightness_toggle_title">Night mode low brightness</string>
+    <string name="qs_night_brightness_toggle_summary">Automatically set a low brightness when enabling night mode from tile. Disabling night mode will restore the previous user value.</string>
+
 </resources>
