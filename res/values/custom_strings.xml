@@ -317,8 +317,8 @@
     <string name="navigation_bar_visible_summary">Enable or disable navbar (can make your device unusable if you dont have an alternative navigation bar)</string>
 
     <!-- Advanced night mode tile -->
-    <string name="qs_night_brightness_value_title">Night light tile brightness</string>
-    <string name="qs_night_brightness_value_dialog">Set low brightness value when enabling night light from the QS tile</string>
+    <string name="qs_night_brightness_value_title">Night light low brightness</string>
+    <string name="qs_night_brightness_value_dialog">Auotmatically set low brightness value when enabling night light</string>
     <string name="qs_night_bright_disabled">Don\'t change brightness</string>
     <string name="qs_night_bright_less">Set low brightness</string>
     <string name="qs_night_bright_medium">Set medium brightness</string>
