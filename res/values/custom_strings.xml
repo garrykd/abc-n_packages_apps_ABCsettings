@@ -321,5 +321,8 @@
    <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Pixel navbar animation</string>
     <string name="pixel_navbar_anim_summary">Requires a config change(display size, navbar position, reboot) themes may overwrite</string>
+    <!-- Kill app long press back -->
+    <string name="kill_app_longpress_back">Kill app back button</string>
+    <string name="kill_app_longpress_back_summary">Kill the foreground app by long-pressing the back key for 2 secs</string>
 
 </resources>

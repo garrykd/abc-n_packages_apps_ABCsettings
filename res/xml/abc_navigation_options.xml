@@ -35,4 +35,10 @@
             android:dependency="navigation_bar_visible"
             android:defaultValue="true" />
 
+        <com.abc.settings.preference.SecureSettingSwitchPreference
+            android:key="kill_app_longpress_back"
+            android:title="@string/kill_app_longpress_back"
+            android:summary="@string/kill_app_longpress_back_summary"
+            android:defaultValue="false" />
+
 </PreferenceScreen>
