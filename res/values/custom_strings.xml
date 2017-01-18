@@ -325,4 +325,8 @@
     <string name="kill_app_longpress_back">Kill app back button</string>
     <string name="kill_app_longpress_back_summary">Kill the foreground app by long-pressing the back key for 2 secs</string>
 
+    <!-- One handed mode -->
+    <string name="one_handed_mode_title">One Handed mode</string>
+    <string name="one_handed_mode_summary">Allows swiping on the navigation bar to enable one handed mode</string>
+
 </resources>
