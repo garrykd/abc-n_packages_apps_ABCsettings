@@ -183,8 +183,8 @@ public class SlimRecentPanel extends SettingsPreferenceFragment implements
         mRecentPanelBgColor.setOnPreferenceChangeListener(this);
         final int intColor = Settings.System.getInt(getContext().getContentResolver(),
                 Settings.System.RECENT_PANEL_BG_COLOR, 0x00ffffff);
-        String hexColor = String.format("#%08x", (0x00ffffff & intColor));
-        if (hexColor.equals("#00ffffff")) {
+        String hexColor = String.format("#%08x", (0x763367d6 & intColor));
+        if (hexColor.equals("#763367d6")) {
             mRecentPanelBgColor.setSummary(R.string.default_string);
         } else {
             mRecentPanelBgColor.setSummary(hexColor);
