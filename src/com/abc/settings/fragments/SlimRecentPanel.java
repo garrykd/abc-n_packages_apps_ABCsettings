@@ -96,7 +96,7 @@ public class SlimRecentPanel extends SettingsPreferenceFragment implements
         } else if (preference == mRecentPanelBgColor) {
             String hex = ColorPickerPreference.convertToARGB(
                     Integer.valueOf(String.valueOf(newValue)));
-            if (hex.equals("#00ffffff")) {
+            if (hex.equals("#763367d6")) {
                 preference.setSummary(R.string.default_string);
             } else {
                 preference.setSummary(hex);
@@ -182,8 +182,8 @@ public class SlimRecentPanel extends SettingsPreferenceFragment implements
                 (ColorPickerPreference) findPreference(RECENT_PANEL_BG_COLOR);
         mRecentPanelBgColor.setOnPreferenceChangeListener(this);
         final int intColor = Settings.System.getInt(getContext().getContentResolver(),
-                Settings.System.RECENT_PANEL_BG_COLOR, 0x00ffffff);
-        String hexColor = String.format("#%08x", (0x763367d6 & intColor));
+                Settings.System.RECENT_PANEL_BG_COLOR, 0x763367d6);
+        String hexColor = String.format("#%08x", (0x00ffffff & intColor));
         if (hexColor.equals("#763367d6")) {
             mRecentPanelBgColor.setSummary(R.string.default_string);
         } else {
