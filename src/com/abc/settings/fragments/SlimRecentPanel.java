@@ -157,7 +157,7 @@ public class SlimRecentPanel extends SettingsPreferenceFragment implements
         mRecentPanelLeftyMode.setChecked(recentLeftyMode);
 
         mMaxApps.setValue(Settings.System.getIntForUser(getContext().getContentResolver(),
-                Settings.System.RECENTS_MAX_APPS, ActivityManager.getMaxRecentTasksStatic(),
+                Settings.System.RECENTS_MAX_APPS, 15,
                 UserHandle.USER_CURRENT));
 
         final int recentScale = Settings.System.getInt(getContext().getContentResolver(),
