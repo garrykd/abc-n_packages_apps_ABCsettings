@@ -336,7 +336,7 @@ public class SlimRecentPanel extends SettingsPreferenceFragment implements
     private View createDialogView(final Context context, Map<String, IconPackInfo> supportedPackages) {
         final LayoutInflater inflater = (LayoutInflater) context
                 .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        final View view = inflater.inflate(R.layout.dialog_iconpack, null);
+        final View view = inflater.inflate(R.layout.dialog_iconpacks, null);
         final IconAdapter adapter = new IconAdapter(context, supportedPackages);
 
         mListView = (ListView) view.findViewById(R.id.iconpack_list);
